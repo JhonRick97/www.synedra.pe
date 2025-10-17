@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio en Construcción</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .construction-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        .construction-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            color: #ffc107;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .social-links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="construction-container">
+        <div class="construction-icon pulse-animation">
+            🚧
+        </div>
+        <h1>Sitio Web en Construcción</h1>
+        
+        <p>Estamos trabajando para crear una experiencia increíble. ¡Vuelve pronto!</p>
+        
+        <div class="contact-info">
+            <p>Contáctanos: info@empresa.com</p>
+            <p>Teléfono: +XX (XXX) XXX-XXXX</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#" target="_blank">🌐 Web</a>
+            <a href="#" target="_blank">📘 Facebook</a>
+            <a href="#" target="_blank">🐦 Twitter</a>
+            <a href="#" target="_blank">💼 LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
